@@ -1,8 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Section Title</title>
+	<title>Operations on Sets</title>
 
-  <p> Text of section. </p>
+	<subsection>
+		<title>1.1 Set Union</title>
+		<paragraphs>
+			<p>
+				<definition>The union (denoted by ∪) of a collection of sets is the set of all distinct elements in any of the sets. It corresponds to the 'or' logic, where an element is in the union if it's in either set. The nullary union equals the empty set.</definition>
+			</p>
+			<p>
+				<realWorldConnection>Combining two playlists from different genres into one without duplicates.</realWorldConnection>
+			</p>
+			<p>
+				<example>A = {1, 2, 3}, B = {3, 4, 5}. A ∪ B = {1, 2, 3, 4, 5}.</example>
+			</p>
+			<p>
+				<tips>Order is irrelevant, and duplicates are removed. A ∪ B = B ∪ A.</tips>
+			</p>
+		</paragraphs>
+	</subsection>
+
+	<subsection>
+		<title>1.2 Set Intersection</title>
+		<paragraphs>
+			<p>
+				<definition>The intersection (denoted by ∩) finds common elements between sets. For A and B, A ∩ B contains elements in both A and B. Disjoint sets have an empty intersection.</definition>
+			</p>
+			<p>
+				<realWorldConnection>Shared interests between two different social media groups.</realWorldConnection>
+			</p>
+			<p>
+				<example>A = {1, 2, 3, 4}, B = {3, 4, 5, 6}. A ∩ B = {3, 4}.</example>
+			</p>
+			<p>
+				<tips>If A ∩ B = ∅, A and B are disjoint.</tips>
+			</p>
+		</paragraphs>
+	</subsection>
+
+	<subsection>
+		<title>1.3 Set Difference</title>
+		<paragraphs>
+			<p>
+				<definition>The difference (denoted by "−" or "\") results in a set containing elements in one set but not the other. For A and B, A - B includes elements in A not in B. It is not commutative.</definition>
+			</p>
+			<p>
+				<realWorldConnection>Identifying new dishes to try from a menu.</realWorldConnection>
+			</p>
+			<p>
+				<example>A = {1, 2, 3, 4, 5}, B = {4, 5, 6, 7}. A - B = {1, 2, 3}.</example>
+			</p>
+			<p>
+				<tips>A - B ≠ B - A.</tips>
+			</p>
+		</paragraphs>
+	</subsection>
+
+	<subsection>
+		<title>1.4 Set Complement</title>
+		<paragraphs>
+			<p>
+				<definition>The complement of a set (denoted by A' or \(\bar{A}\)) includes elements not in the set, relative to a universal set U. It embodies the 'not' logic and depends on U.</definition>
+			</p>
+			<p>
+				<realWorldConnection>Exploring untried flavors from a full list of ice cream.</realWorldConnection>
+			</p>
+			<p>
+				<example>U = {1, 2, 3, 4, 5, 6}, A = {2, 4, 6}. A' = {1, 3, 5}.</example>
+			</p>
+			<p>
+				<tips>The complement changes with the universal set.</tips>
+			</p>
+		</paragraphs>
+	</subsection>
+
+	<subsection>
+		<title>1.5 Cartesian Product of Sets</title>
+		<paragraphs>
+			<p>
+				<definition>The Cartesian product (denoted by "×") returns a set of all ordered pairs from two sets. For sets A and B, A × B contains pairs (a, b) with a ∈ A and b ∈ B. It is not commutative.</definition>
+			</p>
+			<p>
+				<realWorldConnection>All possible actor-role pairings in a school play.</realWorldConnection>
+			</p>
+			<p>
+				<example>A = {1, 2}, B = {x, y}. A × B = {(1, x), (1, y), (2, x), (2, y)}.</example>
+			</p>
+			<p>
+				<tips>The pairs are ordered; (a, b) ≠ (b, a).</tips>
+			</p>
+		</paragraphs>
+	</subsection>
+
+	<subsection title="Practice Questions">
+		<paragraphs>
+			<p>Given A = {a, b, c, d} and B = {c, d, e, f}, find A ∪ B and A ∩ B.</p>
+			<p>Let X = {1, 2, 3, 4, 5, 6} and Y = {4, 5, 6, 7, 8}. Determine X - Y and Y - X.</p>
+			<p>For U = {1, 2, 3, 4, 5, 6, 7, 8, 9}, and Z = {2, 4, 6, 8}, find Z'.</p>
+			<p>If P = {red, blue} and Q = {circle, square}, list P × Q.</p>
+			<p>For A = {1, 2, 3}, B = {3, 4, 5}, and C = {1, 5, 6}, find (A ∪ B) ∩ C and (A ∩ B) ∪ C.</p>
+		</paragraphs>
+	</subsection>
 
 </section>
